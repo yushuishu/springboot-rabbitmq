@@ -21,6 +21,11 @@
         <java.version>17</java.version>
     </properties>
 
+    <modules>
+        <module>rabbitmq-consumer</module>
+        <module>rabbitmq-producer</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
